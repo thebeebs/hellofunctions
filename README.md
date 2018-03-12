@@ -1,15 +1,15 @@
 # Demo Steps
 
-1. ``Fn apps delete myapp``
+1. ``fn apps delete myapp``
 2. ``mkdir functionsbasic``
 3. ``cd functionsbasic``
 4. ``fn init --runtime go hello``
 5. ``cd hello``
-6. ```. Find```
+6. ```. find```
 7. Open the folder in vs code
 8. Look inside the go function
 9. ``fn run``
-10 . ``Fn deploy --app myapp --local``
+10 . ``fn deploy --app myapp --local``
 11. ```fn routes list myapp```
 12. ```fn call myapp hello```
 13. ```cURL http://localhost:8080/r/myapp/hello```
